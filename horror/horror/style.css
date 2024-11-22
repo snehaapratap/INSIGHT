@@ -1,0 +1,119 @@
+html {
+	background-color:#042A2B;
+	color:#EEF9FC;
+}  
+
+body {
+    line-height: 1.6;
+		font-family: 'Libre Franklin', sans-serif;
+		align-items: center;
+  }
+ 
+article {
+		min-width:40em;
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+figure {
+	margin:0 auto;
+	text-align:center;
+}
+
+figure::after{
+	font-family: 'Bebas Neue', cursive;
+	font-size:4em;
+	display:block;
+	margin: -5.5em 0 4em -2.5em;
+	letter-spacing:-.18em;
+	transform:rotate(0deg);
+}
+
+figcaption, figure::after{
+	color:#60a3af;
+}
+
+figcaption{
+	font-size:3.5em;
+	margin:-0.4em auto 0 ;
+	transform:rotate(0deg);
+	font-family:'Garamond'cursive;
+}
+
+figure img {
+	border-radius:2rem;
+	height:450px;
+	margin:0 auto;
+}
+
+h1 {
+	color:#EEF9FC;
+	text-align:center;
+	font-size:4.5rem;
+	font-family: 'Bebas Neue', sans-serif;
+	margin:0;
+	line-height:.9em;
+	padding-bottom:.5em;
+	margin-bottom:.5em;
+	border-bottom:2px solid #5EB1BF;
+}
+
+h3 {
+	color:#EEF9FC;
+	text-align:center;
+	font-size:3rem;
+	font-family: 'Bebas Neue', sans-serif;
+	margin:0;
+	
+}
+
+h4 {
+	color:#EEF9FC;
+	text-align:center;
+	font-size:2rem;
+	font-family: 'Bebas Neue', sans-serif;
+	margin:0;
+	
+}
+
+
+h1 span {
+	color:#5EB1BF;
+	font-family: 'Caveat', cursive;
+	font-size:5.5rem;
+	font-weight:normal;
+}
+
+table {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	align-items: center;
+	align-self: center;
+	font-size: 25 px;
+  }
+  
+  table, th, td {
+	border: 3px solid #60a3af;
+	padding: 5px;
+	align-items: center;
+  }
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin:0 auto;
+	margin-right: 20 px;
+	margin-bottom: 20 px;
+	justify-content: space-around;
+	background-color: #60a3af;
+  }
